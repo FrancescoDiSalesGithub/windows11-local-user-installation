@@ -9,5 +9,5 @@ New-NetFirewallRule -DisplayName "Block Third Server" -Direction Outbound -Actio
 New-NetFirewallRule -DisplayName "Block Fourth Server" -Direction Outbound -Action Block -Protocol TCP -RemoteAddress 204.79.197.239 -RemotePort 443
 New-NetFirewallRule -DisplayName "Block Fifth Server" -Direction Outbound -Action Block -Protocol TCP -RemoteAddress 204.79.197.222 -RemotePort 443
 
-
+Restart-Computer
 

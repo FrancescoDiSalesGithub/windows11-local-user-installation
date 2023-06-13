@@ -2,19 +2,6 @@ Set-ExecutionPolicy Unrestricted
 
 net user /add localuser localuser
 
-Set-Service -Name "WSearch" -StartupType Manual
-
-
-
-
-Stop-Service WSearch
-Stop-Service Spooler
-Stop-Service OneSyncSvc_469ef
-
-
-
-
-
-
-
-
+Set-Service -Name "WSearch" -StartupType Disabled
+Set-Service -Name "Spooler" -StartupType Disabled
+Set-Service -Name "OneSyncSvc_469ef" -StartupType Disabled

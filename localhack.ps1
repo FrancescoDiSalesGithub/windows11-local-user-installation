@@ -4,4 +4,4 @@ net user /add localuser localuser
 
 Set-Service -Name "WSearch" -StartupType Disabled
 Set-Service -Name "Spooler" -StartupType Disabled
-Set-Service -Name "OneSyncSvc_469ef" -StartupType Disabled
+
